@@ -33,7 +33,7 @@ Please follow the steps mentioned in the following article to configure the SSH 
 https://medium.com/codex/git-authentication-on-macos-setting-up-ssh-to-connect-to-your-github-account-d7f5df029320
 
 
-After executing the steps mentioned in the above article, please test the SSH connection with the following command.
+After executing the steps mentioned in the above article, please test the SSH connection with the "ssh -T git@github.com" command .
 
     chandranakkalakunta@Chandras-MacBook-Air GitLearnings % ssh -T git@github.com
     Hi chandragcp! You've successfully authenticated, but GitHub does not provide shell access.
