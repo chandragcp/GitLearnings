@@ -1,6 +1,7 @@
 
 Trying to put my important learnings or findings related to GIT and GIThub on Mac.
 
+#Creating a new Repo
 
 How to set up fresh git repo and create a git remote on local system with seamless pull and push.
 
@@ -22,7 +23,9 @@ Please see the below article on managing the remore repositories:
 
     git clone <<REPO URL on GIThub>>    
 
- Though it appears git remote option is better choice here, but git clone seems working fine for me.     
+Though it appears git remote option is better choice here, but git clone seems working fine for me.     
+
+#SSH setup for Git Repo
 
 As most of you aware, GIT stopped supporting password authentication couple of years back.  Hence the only way to synchronize the repos between Github and local systems is SSH only.  
 
@@ -33,7 +36,7 @@ Please follow the steps mentioned in the following article to configure the SSH 
 https://medium.com/codex/git-authentication-on-macos-setting-up-ssh-to-connect-to-your-github-account-d7f5df029320
 
 
-After executing the steps mentioned in the above article, please test the SSH connection with the "ssh -T git@github.com" command .
+After executing the steps mentioned in the above article, please test the SSH connection with the "_ssh -T git@github.com_" command .
 
     chandranakkalakunta@Chandras-MacBook-Air GitLearnings % ssh -T git@github.com
     Hi chandragcp! You've successfully authenticated, but GitHub does not provide shell access.
